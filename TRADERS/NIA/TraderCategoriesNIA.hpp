@@ -11,12 +11,12 @@
 			"hlc_muzzle_Agendasix",
 			"hlc_muzzle_Agendasix10mm",
 			"hlc_muzzle_Tundra",
-			//"hlc_muzzle_snds_AUG",//Removed, may be back
+			//"hlc_muzzle_snds_AUG",  //In AUG readme but doesn't reference in game
 			"hlc_muzzle_snds_HK33",
 			"hlc_muzzle_snds_M14",
-			"hlc_muzzle_snds_a6AUG",
-			//"hlc_muzzle_snds_fal",//Removed, may be back
-			"hlc_muzzle_snds_g3"
+			"hlc_muzzle_snds_a6AUG"
+			//"hlc_muzzle_snds_fal" //Doesn't work
+			//"hlc_muzzle_snds_g3" //Doesn't work
 		};
 	};
 
@@ -72,13 +72,11 @@
 		items[]=
 		{
 			"hlc_lmg_M249E2",
-			"hlc_lmg_M249E2",
 			"hlc_lmg_M60E4",
 			"hlc_lmg_MG3KWS_b",
 			"hlc_lmg_MG3KWS_g",
 			"hlc_lmg_MG42",
 			"hlc_lmg_MG42KWS_t",
-			"hlc_lmg_m249para",
 			"hlc_lmg_m249para",
 			"hlc_lmg_m60",
 			"hlc_lmg_mg42kws_b",
@@ -93,7 +91,10 @@
 			"hlc_m249_pip4",
 			"hlc_rifle_rpk",
 			"hlc_rifle_rpk12",
-			"hlc_rifle_rpk74n"
+			"hlc_rifle_rpk74n",
+			"hlc_lmg_mg42_bakelite",
+			"hlc_lmg_MG3",
+			"hlc_lmg_MG3KWS"
 		};
 	};
 
@@ -123,9 +124,6 @@
 		items[]=
 		{
 			"HLC_Rifle_g3ka4_GL",
-			"hlc_barrel_carbine",
-			"hlc_barrel_hbar",
-			"hlc_barrel_standard",
 			"hlc_rifle_Bushmaster300",
 			"hlc_rifle_Colt727",
 			"hlc_rifle_Colt727_GL",
@@ -244,7 +242,40 @@
 			"hlc_rifle_slr107u_MTK",
 			"hlc_rifle_stgw57_RIS",
 			"hlc_rifle_stgw57_commando",
-			"hlc_rifle_vendimus"
+			"hlc_rifle_vendimus",
+			"hlc_rifle_saiga12k",
+			"hlc_rifle_ACR68_SBR_tan",
+			"hlc_rifle_ACR68_SBR_black",
+			"hlc_rifle_ACR68_SBR_green",
+			"hlc_rifle_ACR68_Carb_black",
+			"hlc_rifle_ACR68_Carb_tan",
+			"hlc_rifle_ACR68_Carb_green",
+			"hlc_rifle_ACR68_MID_black",
+			"hlc_rifle_ACR68_MID_tan",
+			"hlc_rifle_ACR68_MID_green",
+			"hlc_rifle_ACR68_full_black",
+			"hlc_rifle_ACR68_full_tan",
+			"hlc_rifle_ACR68_full_green",
+			"hlc_rifle_ACR_SBR_tan",
+			"hlc_rifle_ACR_SBR_black",
+			"hlc_rifle_ACR_SBR_green",
+			"hlc_rifle_ACR_Carb_black",
+			"hlc_rifle_ACR_Carb_tan",
+			"hlc_rifle_ACR_Carb_green",
+			"hlc_rifle_ACR_MID_black",
+			"hlc_rifle_ACR_MID_tan",
+			"hlc_rifle_ACR_MID_green",
+			"hlc_rifle_ACR_full_black",
+			"hlc_rifle_ACR_full_tan",
+			"hlc_rifle_ACR_full_green",
+			"hlc_rifleACR_SBR_cliffhanger",
+			"hlc_rifle_honeybase",
+			"hlc_rifle_augpara",
+			"hlc_rifle_augpara_b",		
+			"hlc_rifle_augpara_t",	
+			"hlc_rifle_auga2para",
+			"hlc_rifle_auga2para_b",		
+			"hlc_rifle_auga2para_t"	
 		};
 	};
 
@@ -268,11 +299,17 @@
 			"hlc_rifle_awmagnum_BL",
 			"hlc_rifle_awmagnum_FDE",
 			"hlc_rifle_psg1",
-			"hlc_rifle_psg1A1"
+			"hlc_rifle_psg1A1",
+			"hlc_rifle_FN3011",
+			"hlc_rifle_FN3011_WDL",
+			"hlc_rifle_FN3011Modern",
+			"hlc_rifle_FN3011Modern_camo",
+			"hlc_rifle_FN3011Lynx",
+			"hlc_rifle_FN3011Tactical",
+			"hlc_rifle_FN3011Tactical_grey",
+			"hlc_rifle_FN3011Tactical_green"
 		};
 	};
-
-
 
 	class NIAMiniGun
 	{
@@ -284,10 +321,52 @@
 		};
 	};
 
-
+	class NIAPistols
+	{
+		name = "NIA Pistols";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[]=
+		{
+			"hlc_pistol_P226WestGerman",
+			"hlc_pistol_P226US",
+			"hlc_pistol_P226R",
+			"hlc_pistol_P226R_Elite",
+			"hlc_pistol_P226R_Combat",
+			"hlc_pistol_Mk25",
+			"hlc_pistol_Mk25D",
+			"hlc_Pistol_mk25RX",
+			"hlc_pistol_P226R_40",
+			"hlc_pistol_P226R_40Elite",
+			"hlc_pistol_P226R_40Combat",
+			"hlc_pistol_P226R_40Enox",
+			"hlc_Pistol_P228",
+			"hlc_Pistol_M11",
+			"hlc_pistol_P229R",
+			"hlc_pistol_P229R_Combat",
+			"hlc_Pistol_M11A1",
+			"hlc_Pistol_M11A1D",
+			"hlc_pistol_P229R_Elite",
+			"hlc_pistol_P229R_40",
+			"hlc_pistol_P229R_40Combat",
+			"hlc_pistol_P229R_40Elite",
+			"hlc_pistol_P229R_40Enox",
+			"hlc_pistol_P229R_357",
+			"hlc_pistol_P229R_357Combat",
+			"hlc_pistol_P229R_357Elite",
+			"hlc_pistol_P229R_357Stainless",
+			"hlc_pistol_P226R_357",
+			"hlc_pistol_P226R_357Combat",
+			"hlc_pistol_P226R_357Elite",
+			//"hlc_pistol_P226R_357Stainless", //In P226 readme but doesn't reference in game
+			"hlc_pistol_P239",
+			"hlc_pistol_P239_40",
+			"hlc_pistol_P239_357"
+		};
+	};
+	
 	class NIAAmmunition
 	{
-		name = "NIA Ammunition";
+		name = "NIA Ammo";
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[]=
 		{
@@ -308,15 +387,15 @@
 			"hlc_100Rnd_792x57_M_MG42",
 			"hlc_100Rnd_792x57_T_MG42",
 			"hlc_100rnd_556x45_EPR_G36",
-			//"hlc_10Rnd_303_AP_enfield",//Removed, may be back
-			//"hlc_10Rnd_303_B_enfield",//Removed, may be back
-			//"hlc_10Rnd_303_T_enfield",//Removed, may be back
-			//"hlc_10Rnd_45ACP_B_hk45", //Removed, may be back
+			//"hlc_10Rnd_303_AP_enfield", //Doesn't work
+			//"hlc_10Rnd_303_B_enfield", //Doesn't work
+			//"hlc_10Rnd_303_T_enfield", //Doesn't work
+			//hlc_10Rnd_45ACP_B_hk45", //Doesn't work
 			"hlc_10rnd_12g_buck_S12",
 			"hlc_10rnd_12g_slug_S12",
-			//"hlc_12Rnd_45ACP_B_mk23",//Removed, may be back
-			//"hlc_12Rnd_45ACP_S_mk23",//Removed, may be back
-			//"hlc_12Rnd_45ACP_T_mk23",//Removed, may be back
+			//"hlc_12Rnd_45ACP_B_mk23", //Doesn't work
+			//"hlc_12Rnd_45ACP_S_mk23", //Doesn't work
+			//"hlc_12Rnd_45ACP_T_mk23", //Doesn't work
 			"hlc_200Rnd_792x57_AP_MG42",
 			"hlc_200Rnd_792x57_B_MG42",
 			"hlc_200Rnd_792x57_M_MG42",
@@ -361,9 +440,9 @@
 			"hlc_25Rnd_9x19mm_subsonic_AUG",
 			"hlc_30Rnd_10mm_B_MP5",
 			"hlc_30Rnd_10mm_JHP_MP5",
-			//"hlc_30Rnd_303_AP_bren",//Removed, may be back
-			//"hlc_30Rnd_303_B_bren",//Removed, may be back
-			//"hlc_30Rnd_303_T_bren",//Removed, may be back
+			//"hlc_30Rnd_303_AP_bren",  //Doesn't work
+			//"hlc_30Rnd_303_B_bren",  //Doesn't work
+			//"hlc_30Rnd_303_T_bren",  //Doesn't work
 			"hlc_30Rnd_545x39_B_AK",
 			"hlc_30Rnd_545x39_EP_ak",
 			"hlc_30Rnd_545x39_S_AK",
@@ -398,7 +477,7 @@
 			"hlc_30rnd_556x45_t_HK33",
 			"hlc_30rnd_556x45_tdim_HK33",
 			"hlc_30rnd_762x39_s_ak",
-			//"hlc_32rnd_9x19_B_sten",//Removed, may be back
+			//"hlc_32rnd_9x19_B_sten", //Doesn't work
 			"hlc_40Rnd_556x45_B_AUG",
 			"hlc_40Rnd_556x45_SOST_AUG",
 			"hlc_40Rnd_556x45_SPR_AUG",
@@ -408,11 +487,11 @@
 			"hlc_45Rnd_762x39_t_rpk",
 			"hlc_500rnd_762x51_Belt",
 			"hlc_500rnd_762x51_Cinematic",
-			//"hlc_50Rnd_44mag_B_deagle",//Removed, may be back
+			//"hlc_50Rnd_44mag_B_deagle",  //Doesn't work
 			"hlc_50Rnd_45ACP_B_1921",
 			"hlc_50Rnd_45ACP_T_1921",
-			//"hlc_50Rnd_57x28_FMJ_P90",//Removed, may be back
-			//"hlc_50Rnd_57x28_JHP_P90",//Removed, may be back
+			//"hlc_50Rnd_57x28_FMJ_P90",  //Doesn't work
+			//"hlc_50Rnd_57x28_JHP_P90",  //Doesn't work
 			"hlc_50Rnd_762x51_B_M14",
 			"hlc_50Rnd_762x51_B_MG3",
 			"hlc_50Rnd_762x51_Barrier_MG3",
@@ -427,11 +506,11 @@
 			"hlc_50rnd_762x51_M_FAL",
 			"hlc_50rnd_762x51_M_G3",
 			"hlc_50rnd_9x19_B_9mmar",
-			//"hlc_5Rnd_12G_Buck_Trench",//Removed, may be back
-			//"hlc_5Rnd_12G_DISTRACTION_Trench",//Removed, may be back
-			//"hlc_5Rnd_12G_Slug_Trench",//Removed, may be back
-			//"hlc_5Rnd_792_AP_Kar98",//Removed, may be back
-			//"hlc_5Rnd_792_T_Kar98",//Removed, may be back
+			//"hlc_5Rnd_12G_Buck_Trench", //Doesn't work
+			//"hlc_5Rnd_12G_DISTRACTION_Trench", //Doesn't work
+			//"hlc_5Rnd_12G_Slug_Trench", //Doesn't work
+			//"hlc_5Rnd_792_AP_Kar98", //Doesn't work
+			//"hlc_5Rnd_792_T_Kar98", //Doesn't work
 			"hlc_5rnd_3006_1903",
 			"hlc_5rnd_300WM_AP_AWM",
 			"hlc_5rnd_300WM_BTSP_AWM",
@@ -440,13 +519,13 @@
 			"hlc_5rnd_300WM_T_AWM",
 			"hlc_5rnd_300WM_mk248_AWM",
 			"hlc_60Rnd_545x39_t_rpk",
-			//"hlc_6Rnd_735_B_Carcano",//Removed, may be back
-			//"hlc_6Rnd_735_T_Carcano",//Removed, may be back
+			//"hlc_6Rnd_735_B_Carcano", //Doesn't work
+			//"hlc_6Rnd_735_T_Carcano", //Doesn't work
 			"hlc_75Rnd_762x39_m_rpk",
-			//"hlc_8Rnd_44mag_B_deagle",//Removed, may be back
-			//"hlc_8Rnd_44mag_JHP_deagle",//Removed, may be back
-			//"hlc_8Rnd_45ACP_B_hk45",//Removed, may be back
-			//"hlc_8Rnd_45ACP_T_hk45",//Removed, may be back
+			//"hlc_8Rnd_44mag_B_deagle", //Doesn't work
+			//"hlc_8Rnd_44mag_JHP_deagle", //Doesn't work
+			//"hlc_8Rnd_45ACP_B_hk45", //Doesn't work
+			//"hlc_8Rnd_45ACP_T_hk45", //Doesn't work
 			"hlc_GRD_Red",
 			"hlc_GRD_White",
 			"hlc_GRD_blue",
@@ -454,7 +533,44 @@
 			"hlc_GRD_orange",
 			"hlc_GRD_purple",
 			"hlc_GRD_yellow",
-			"hlc_VOG25_AK"
-			//"hlc_50Rnd_44mag_FUN",
+			"hlc_VOG25_AK",
+			//"hlc_50Rnd_44mag_FUN", //FUN?? disabled as i think this could be OP
+			"hlc_30rnd_68x43_FMJ",
+			"hlc_30rnd_68x43_OTM",
+			"hlc_30rnd_68x43_Tracer",
+			"hlc_30rnd_68x43_IRDIM",
+			"hlc_30rnd_68x43_MFMJ",
+			"hlc_30rnd_68x43_MIRDIM",
+			//"HLC_AK_ammobox", //disabled due to getting picture icon problem
+			"hlc_10Rnd_762x51_B_fal",
+			"hlc_10Rnd_762x51_mk316_fal",
+			"hlc_10Rnd_762x51_barrier_fal",
+			"hlc_10Rnd_762x51_T_fal",
+			"hlc_10Rnd_762x51_TDim_fal",
+			"hlc_10Rnd_762x51_S_fal",
+			"hlc_15Rnd_9x19_B_P226",
+			"hlc_15Rnd_9x19_JHP_P226",
+			"hlc_15Rnd_9x19_SD_P226",
+			"hlc_12Rnd_40SW_B_P226",
+			"hlc_12Rnd_40SW_JHP_P226",
+			"hlc_12Rnd_40SW_SD_P226",
+			"hlc_12Rnd_357SIG_B_P226",
+			"hlc_12Rnd_357SIG_JHP_P226",
+			"hlc_13Rnd_9x19_B_P228",
+			"hlc_13Rnd_9x19_JHP_P228",
+			"hlc_13Rnd_9x19_SD_P228",
+			"hlc_10Rnd_40SW_B_P229",
+			"hlc_10Rnd_40SW_JHP_P229",
+			"hlc_10Rnd_40SW_SD_P229",
+			"hlc_10Rnd_357SIG_B_P229",
+			"hlc_10Rnd_357SIG_JHP_P229",
+			"hlc_10Rnd_9x19_B_P239",
+			"hlc_10Rnd_9x19_JHP_P239",
+			"hlc_10Rnd_9x19_SD_P239",
+			"hlc_8Rnd_40SW_B_P239",
+			"hlc_10Rnd_40sw_JHP_P239",
+			"hlc_10Rnd_40sw_SD_P239",
+			"hlc_8Rnd_357SIG_B_P239",
+			"hlc_8Rnd_357SIG_JHP_P239"
 		};
 	};

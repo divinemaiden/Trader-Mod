@@ -19,7 +19,9 @@
 			"B_mas_HMMWV_UNA",
 			"B_mas_HMMWV_MEV",
 			"B_mas_HMMWV_UNA_des",
-			"B_mas_HMMWV_MEV_des"
+			"B_mas_HMMWV_MEV_des",
+			"B_mas_HMMWV_TOW",
+			"B_mas_HMMWV_TOW_des"
 		};
 	};
 
@@ -44,13 +46,34 @@
 			"B_mas_HMMWV_SOV_M134",
 			"B_mas_HMMWV_M134",
 			"B_mas_cars_Hilux_SPG9",
-			//"B_mas_cars_Hilux_RKTS",
+			"B_mas_cars_Hilux_RKTS",
 			"B_mas_cars_Hilux_M2",
 			"I_mas_BRDM2",
 			"O_mas_BRDM2",
 			"I_mas_BTR60",
 			"I_mas_BMP2_AAF_01",
-			"O_mas_BTR60"
+			"O_mas_BTR60",
+			"B_mas_HMMWV_Stinger",
+			"B_mas_HMMWV_MK19",
+			"B_mas_HMMWV_M134_des",
+			"B_mas_HMMWV_SOV_des",
+			"B_mas_HMMWV_SOV_M134_des",
+			"B_mas_HMMWV_Stinger_des",
+			"B_mas_HMMWV_MK19_des",
+			"I_mas_cars_UAZ_MG",
+			"I_mas_cars_UAZ_AGS30",
+			"I_mas_cars_UAZ_SPG9",
+			"I_mas_cars_UAZ_M2",
+			"O_mas_cars_UAZ_MG",
+			"O_mas_cars_UAZ_AGS30",
+			"O_mas_cars_UAZ_SPG9",
+			"I_mas_BMP1_AAF_01",
+			"I_mas_BMP1P_AAF_01",
+			"I_mas_BMP2_HQ_AAF_01",
+			"O_mas_BMP1_OPF_01",
+			"O_mas_BMP1P_OPF_01",
+			"O_mas_BMP2_OPF_01",
+			"O_mas_BMP2_HQ_OPF_01"
 
 		};
 	};
@@ -84,7 +107,7 @@
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[] =
 		{
-			/*"I_mas_T72_AAF_01",
+			"I_mas_T72_AAF_01",
 			"I_mas_T72B_Early_AAF_01",
 			"I_mas_T72B_AAF_01",
 			"I_mas_T72BM_AAF_01",
@@ -96,7 +119,7 @@
 			"O_mas_T72B_OPF_01",
 			"O_mas_T72BM_OPF_01",
 			"O_mas_ZSU_OPF_01",
-			"O_mas_T55_OPF_01"*/
+			"O_mas_T55_OPF_01"
 		};
 	};
 
