@@ -48,9 +48,13 @@ NOTE RHS IS BOTH RUS AND USA.
 
 class CfgExileArsenal
 {
+	#include "TRADERS\ACE\ItemListACE.hpp"
 	#include "TRADERS\APEX\ItemListAPEX.hpp"
 	#include "TRADERS\ARMA3V\ItemListARMA3V.hpp"
 	#include "TRADERS\ARMA3W\ItemListARMA3W.hpp"
+	#include "TRADERS\BAFe\ItemListBAFe.hpp"
+	#include "TRADERS\BAFv\ItemListBAFv.hpp"
+	#include "TRADERS\BAFw\ItemListBAFw.hpp"
 	#include "TRADERS\BPOINT\ItemListBPOINT.hpp"
 	#include "TRADERS\CUNITS\ItemListCUNITS.hpp"
 	#include "TRADERS\CUPV\ItemListCUPV.hpp"
@@ -81,8 +85,11 @@ class CfgExileArsenal
 	#include "TRADERS\RHSSAF\ItemListRHSSAF.hpp"
 	#include "TRADERS\RHSV\ItemListRHSV.hpp"
 	#include "TRADERS\RHSW\ItemListRHSW.hpp"
+	#include "TRADERS\SMA\ItemListSMA.hpp"
+	#include "TRADERS\TAC\ItemListTAC.hpp"
 	#include "TRADERS\TANKDLC\ItemListTANKDLC.hpp"
 	#include "TRADERS\TRYK\ItemListTRYK.hpp"
+	#include "TRADERS\VSM\ItemListVSM.hpp"
 	//#include "TRADERS\HLC\ItemListHLC.hpp"		//should use NIArms
 };
 
@@ -92,9 +99,13 @@ class CfgExileArsenal
 
 class CfgTraderCategories
 {
+	#include "TRADERS\ACE\TraderCategoriesACE.hpp"
 	#include "TRADERS\APEX\TraderCategoriesAPEX.hpp"
 	#include "TRADERS\ARMA3V\TraderCategoriesARMA3V.hpp"
 	#include "TRADERS\ARMA3W\TraderCategoriesARMA3W.hpp"
+	#include "TRADERS\BAFe\TraderCategoriesBAFe.hpp"
+	#include "TRADERS\BAFv\TraderCategoriesBAFv.hpp"
+	#include "TRADERS\BAFw\TraderCategoriesBAFw.hpp"
 	#include "TRADERS\BPOINT\TraderCategoriesBPOINT.hpp"
 	#include "TRADERS\CUNITS\TraderCategoriesCUNITS.hpp"
 	#include "TRADERS\CUPV\TraderCategoriesCUPV.hpp"
@@ -125,8 +136,11 @@ class CfgTraderCategories
 	#include "TRADERS\RHSSAF\TraderCategoriesRHSSAF.hpp"
 	#include "TRADERS\RHSV\TraderCategoriesRHSV.hpp"
 	#include "TRADERS\RHSW\TraderCategoriesRHSW.hpp"
+	#include "TRADERS\SMA\TraderCategoriesSMA.hpp"
+	#include "TRADERS\TAC\TraderCategoriesTAC.hpp"
 	#include "TRADERS\TANKDLC\TraderCategoriesTANKDLC.hpp"
 	#include "TRADERS\TRYK\TraderCategoriesTRYK.hpp"
+	#include "TRADERS\VSM\TraderCategoriesVSM.hpp"
 	//#include "TRADERS\HLC\TraderCategoriesHLC.hpp"		//should use NIArms as that is newer and working version of HLC
 };
 
